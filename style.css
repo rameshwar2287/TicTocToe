@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: rgb(127, 12, 142);
+    padding: 12px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+nav ul {
+    list-style: none;
+    font-size: 25px;
+    color: rgb(194, 197, 200);
+}
+.game{
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    /* grid-gap: 10px 10px; */
+}
+.box{
+    border: 2px solid black;
+    font-size: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.gameinfo{
+    margin: 10px 50px;
+}
+.heading{
+    font-size: 1.9em;
+    font-family: 'Merriweather', serif;
+}
+.danceimg{
+    width: 0;
+    transition: width 1s ease-in-out ;
+}
+.check{
+    display: flex;
+    margin: 12px 0px;
+    padding: 10px 10px;
+    /* border: 2px solid red; */
+}
+.playerinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #83d9fd;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.player{
+    margin: 10px 10px;
+}
+#namechange{
+    border: 2px solid rgb(211, 60, 60);
+    display: inline;
+    border-radius: 2px;
+    font-size: 1.3em;
+    background-color: #b6f2ecf2;
+}
+.mx-2{
+    margin: 10px 10px;
+}
+.bt-0{
+    border-top: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+.button-4 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 80%;
+  height: auto;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-4:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-4 {
+    padding: 1rem 2rem;
+  }
+}

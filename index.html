@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TOC TOE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li>MyTicTocToe.com</li>
+        </ul>
+    </nav>
+    <div class="game">
+        <div class="container" >
+            <div class="box bt-0 bl-0"><span id="box1" class="gamebox"></span></div>
+            <div class="box bt-0"><span class="gamebox"></span></div>
+            <div class="box bt-0 br-0"><span class="gamebox"></span></div>
+            <div class="box bl-0"><span class="gamebox"></span></div>
+            <div class="box"><span class="gamebox"></span></div>
+            <div class="box br-0"><span class="gamebox"></span></div>
+            <div class="box bl-0 bb-0"><span class="gamebox"></span></div>
+            <div class="box bb-0"><span class="gamebox"></span></div>
+            <div class="box bb-0 br-0"><span class="gamebox"></span></div>
+        </div>
+        <div class="gameinfo">
+            <h3 class="heading mx-2">Welcome to Our Tic Toc Toe Game</h3>
+            <div class="playerinfo">
+            <div class="player mx-2">  <label for="player1">Enter Player 1 Name:</label>
+                <input type="text" id="player1">
+            </div>
+            <div class="player mx-2"><label for="player2">Enter Player 2 Name:</label>
+                <input  type="text" id="player2">
+            </div>
+            <button class="button-4" id="submit"> SUBMIT</button>
+         </div>
+            <div id="namechange" class="mx-2 "></div>
+            <div class="check">
+                <div class="btn mx-2"><button class="button-4">RESET</button></div>
+                <div class="newgame mx-2"><Button class="button-4">NEWGAME</Button></div>
+
+            </div>
+            <div class><img class="danceimg" src="dance.gif" alt="" srcset=""></div>
+         
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
